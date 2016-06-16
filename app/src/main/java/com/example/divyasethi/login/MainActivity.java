@@ -121,14 +121,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onConfigurationChanged(Configuration newConfig){
-        super.onConfigurationChanged(newConfig);
-        if(newConfig.keyboardHidden==Configuration.KEYBOARDHIDDEN_NO){
-            Toast.makeText(getApplicationContext(),"Good up til now !!!",Toast.LENGTH_SHORT).show();
-            Log.e("Inside!!","onConfigChanged");
-        }
-    }
 
 
 }

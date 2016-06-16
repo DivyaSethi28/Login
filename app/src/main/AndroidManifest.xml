@@ -9,7 +9,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         <activity android:name=".MainActivity"
-            android:windowSoftInputMode="adjustResize|stateUnchanged"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:configChanges="keyboardHidden"
             >
